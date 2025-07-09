@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Capuchina - Vaso Inteligente</title>
+
+  <!-- Fuente elegante tipo caligráfico -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ffffff;
+      color: #3a3a3a;
+    }
+
+    header {
+      background: linear-gradient(to right, #030303, #050505);
+      padding: 3rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 4rem;
+      margin: 0;
+      letter-spacing: 1px;
+      color: white;
+      font-family: 'Great Vibes', cursive;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+      color: #f7f5f2;
+    }
+
+    .section {
+      padding: 3rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section h2 {
+      color: #0c0c0c;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero img {
+      width: 300px;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    .hero .text {
+      max-width: 500px;
+    }
+
+    .video-container {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .video-container video {
+      max-width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(224, 90, 56, 0.637);
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .feature-card {
+      background-color: #000000;
+      color: white;
+      border-radius: 15px;
+      padding: 1.5rem;
+      box-shadow: 0 0 10px rgba(212, 92, 55, 0.836);
+      text-align: center;
+    }
+
+    .feature-card img {
+      width: 70px;
+      margin-bottom: 1rem;
+    }
+
+    .benefits, .specs {
+  background-color: #f88e73; /* Naranja suave */
+  color: #ffffff; /* Texto blanco */
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+    footer {
+      background-color: #2e2e2e;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>La Capuchina</h1>
+    <p>El vaso inteligente que reinventa tus bebidas con estilo, tecnología y elegancia.</p>
+  </header>
+
+  <section class="section hero">
+    <img src="/imagen/capuchina.jpg" alt="Vaso Inteligente">
+    <div class="text">
+      <h2>Bienvenido al futuro de las bebidas</h2>
+      <p>Con su diseño sofisticado, La Capuchina no es solo un vaso térmico: es una experiencia. Personalízalo, conéctalo a tu app y disfruta bebidas perfectas en cualquier momento.</p>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <h2>Características Destacadas</h2>
+    <div class="features">
+      <div class="feature-card">
+        <h3>Pantalla OLED</h3>
+        <p>Visualiza mensajes motivadores, temperatura y nivel del agua directamente en tu vaso.</p>
+           <div class="sketchfab-embed-wrapper" style="margin-top: 1rem;">
+        <iframe title="Pantalla" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
+          allow="autoplay; fullscreen; xr-spatial-tracking"
+          xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share
+          width="100%" height="300"
+          src="https://sketchfab.com/models/af7bd16976d645f49898918c3afc6110/embed?autospin=1&autostart=1&preload=1&transparent=1">
+        </iframe>
+        <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+      
+        </p>
+      </div>
+    </div>
+      </div>
+      <div class="feature-card">
+        <h3>Sensor de Temperatura</h3>
+        <p>Mide la temperatura interna en tiempo real para evitar quemaduras.</p>
+              <div class="sketchfab-embed-wrapper" style="margin-top: 1rem;">
+        <iframe title="Sensor de Temperatura e Umidade DHT11" frameborder="0" allowfullscreen mozallowfullscreen="true"
+          webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking"
+          xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share
+          width="100%" height="300"
+          src="https://sketchfab.com/models/1b3ea5f920314846b083e25da297a8e8/embed?autospin=1&autostart=1&preload=1&transparent=1">
+        </iframe>
+        <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4a4a4a00;">
+         
+      </div>
+
+      </div>
+      <div class="feature-card">
+        <h3>Luces LED</h3>
+        <p>Indican el nivel de líquido.</p>
+        <div class="sketchfab-embed-wrapper"> <iframe title="FLEX PIXEL 60 WHITE" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/856dc134224b4e9e8b436602508eeffe/embed?autospin=1&autostart=1&preload=1&transparent=1"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/flex-pixel-60-white-856dc134224b4e9e8b436602508eeffe?utm_medium=embed&utm_campaign=share-popup&utm_content=856dc134224b4e9e8b436602508eeffe" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"></a>
+      </div>
+      <div class="feature-card">
+        <h3>App movil</h3>
+        <p>Controla funciones desde tu celular con la app exclusiva de La Capuchina.</p>
+        <div class="sketchfab-embed-wrapper"> <iframe title="Telefono movil" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/4d37c952a0464543b1e5eb5b6e15a12e/embed?autospin=1&autostart=1&preload=1&transparent=1"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section specs">
+    <h2>Especificaciones Técnicas</h2>
+    <ul>
+      <li><strong>Capacidad de </strong> 500 ml</li>
+      <li><strong>Pantalla</strong>  OLED </li>
+      <li><strong>Sensor de </strong> temperatura</li>
+      <li><strong>Alimentación con</strong> batería recargable vía USB</li>
+    </ul>
+  </section>
+
+  <section class="section benefits">
+    <h2>Beneficios para el Usuario</h2>
+    <ul>
+      <li>Mezcla automática de tus bebidas favoritas con control de potencia.</li>
+      <li>Evita mensajes motivadores a tu pantalla oled</li>
+      <li>Estilo elegante ideal para oficina, casa o viajes.</li>
+      <li>Materiales premium y aislamiento térmico duradero.</li>
+    </ul>
+  </section>
+
+    <div class="video-container">
+    <video src="/Video/comercial.mp4" controls></video>
+  </div>
+
+  <footer>
+    <p>Creado  por Carolina Cruz Velázquez &copy; 2025 - La Capuchina</p>
+  </footer>
+
+</body>
+</html>
